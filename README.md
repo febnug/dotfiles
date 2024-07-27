@@ -36,3 +36,5 @@ pacman -S vim
 System information pake <a href="https://github.com/dylanaraps/pfetch">ini</a>
 <h4>screenshoot</h4>
 <img src="https://raw.githubusercontent.com/febnug/dotfiles/main/screenshoot/ss.png"/>
+<h4>grub theme</h4>
+untuk tema grub pake <a href="https://github.com/Lxtharia/minegrub-theme">minegrub theme</a>
