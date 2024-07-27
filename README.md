@@ -9,7 +9,7 @@
 dotfiles gw saat ini di Arch Linux (32-bit)
 Tutorial install Arch Linux (32-bit) in <a href="https://fnlqxz.my.id/blog/posts/panduan-install-arch-linux.html">di sini</a>, connect internet dulu pake Network Manager <code>nmcli device wifi connect "Nama SSID" password passphrase</code>
 <br><br><br>
-<p>Catetan :</p>
+<h4>catatan</h4>
 Setelah install arch linux upgrade dulu <code>pacman -Syu</code>, abis itu install dulu ini dengan <code>root</code> user
 <pre>
 pacman -S xorg-server xorg-init xorg-xrandr xorg-xsetroot
@@ -32,4 +32,7 @@ pacman -S NetworkManager
 pacman -S nano
 pacman -S vim
 </pre>
+<h4>system information</h4>
 System information pake <a href="https://github.com/dylanaraps/pfetch">ini</a>
+<h4>screenshoot</h4>
+<img src="https://raw.githubusercontent.com/febnug/dotfiles/main/screenshoot/ss.png"/>
