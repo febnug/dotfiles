@@ -5,16 +5,16 @@ static const unsigned int borderpx  = 1;        /* border pixel of windows */
 static const unsigned int snap      = 32;       /* snap pixel */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
-static const char *fonts[]          = { "monospace:size=10", "Siji" };
+static const char *fonts[]          = { "monospace:size=10" };
 static const char dmenufont[]       = "monospace:size=10";
-static const char fonts2[]	    = "monospace:size=13";
+static const char fonts2[]	    = "monospace:size=12";
 static const int user_bh            = 14;        /* 2 is the default spacing around the bar's font */
 
 static const char col_gray1[]       = "#222222";
 static const char col_gray2[]       = "#444444";
 static const char col_gray3[]       = "#bbbbbb";
 static const char col_gray4[]       = "#eeeeee";
-static const char col_cyan[]        = "#005577";
+static const char col_cyan[]        = "#080509";
 
 
 
@@ -71,6 +71,7 @@ static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-p", "MENU", "-f
 static const char *termcmd[]  = { "st", "-f", fonts2, NULL };
 static const char *fox[] = { "firefox", NULL };
 static const char *explorer[] = { "thunar", NULL };
+static const char *shoot[] = { "scrot", NULL };
 
 static const Key keys[] = {
 	/* modifier                     key        function        argument */
@@ -78,6 +79,7 @@ static const Key keys[] = {
 	{ MODKEY|ShiftMask,             XK_Return, spawn,          {.v = termcmd } },
 	{ MODKEY,			XK_x,	   spawn,	   {.v = explorer } },
 	{ MODKEY,		 	XK_f,	   spawn,	   {.v = fox } },
+	{ MODKEY,		 	XK_s,	   spawn,	   {.v = shoot } },
 	{ MODKEY,                       XK_b,      togglebar,      {0} },
 	{ MODKEY,                       XK_j,      focusstack,     {.i = +1 } },
 	{ MODKEY,                       XK_k,      focusstack,     {.i = -1 } },
@@ -127,4 +129,3 @@ static const Button buttons[] = {
 	{ ClkTagBar,            MODKEY,         Button1,        tag,            {0} },
 	{ ClkTagBar,            MODKEY,         Button3,        toggletag,      {0} },
 };
-
