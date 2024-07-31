@@ -24,7 +24,7 @@ Install beberapa aplikasi yang di butuhin aja, misal :
 <pre>
 pacman -S firefox
 pacman -S thunar
-pacman -S vlc
+pacman -S mpv
 pacman -S git
 pacman -S wget
 pacman -S feh
