@@ -10,10 +10,10 @@ static const char dmenufont[]       = "monospace:size=10";
 static const char fonts2[]	    = "monospace:size=12";
 static const int user_bh            = 14;        /* 2 is the default spacing around the bar's font */
 
-static const char col_gray1[]       = "#222222";
-static const char col_gray2[]       = "#444444";
-static const char col_gray3[]       = "#bbbbbb";
-static const char col_gray4[]       = "#eeeeee";
+static const char col_gray1[]       = "#080509";
+static const char col_gray2[]       = "#080509";
+static const char col_gray3[]       = "#f5f6fa";
+static const char col_gray4[]       = "#f5f6fa";
 static const char col_cyan[]        = "#080509";
 
 
