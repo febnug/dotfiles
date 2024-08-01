@@ -31,6 +31,8 @@ pacman -S feh
 pacman -S NetworkManager
 pacman -S nano
 pacman -S vim
+pacman -S pipewire pipewire-pulse
+pacman -S pavucontrol
 </pre>
 <h4>system information</h4>
 System information pake <a href="https://github.com/dylanaraps/pfetch">ini</a>
