@@ -6,7 +6,7 @@ static int topbar = 0;                      /* -b  option; if 0, dmenu appears a
 static const int user_bh = 13;               /* add an defined amount of pixels to the bar height */
 
 static const char *fonts[] = {
-	"monospace:size=10"
+	"Meslo LGS Nerd Font:size=10"
 };
 static const char *prompt      = NULL;      /* -p  option; prompt to the left of input field */
 static const char *colors[SchemeLast][2] = {
