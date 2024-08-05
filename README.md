@@ -40,3 +40,5 @@ System information pake <a href="https://github.com/dylanaraps/pfetch">ini</a>
 <img src="https://raw.githubusercontent.com/febnug/dotfiles/main/screenshoot/ss.png"/>
 <h4>grub theme</h4>
 untuk tema grub pake <a href="https://github.com/Lxtharia/minegrub-theme">minegrub theme</a>
+<h4>shell promt</h4>
+<p>Pake <a href="https://starship.rs/">ini</a>, cara installnya <a href="https://starship.rs/guide/">di sini</a></p>
