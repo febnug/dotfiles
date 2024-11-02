@@ -43,3 +43,4 @@ untuk tema grub pake <a href="https://github.com/Lxtharia/minegrub-theme">minegr
 <h4>shell promt</h4>
 <p>Pake <a href="https://starship.rs/">ini</a>, cara installnya <a href="https://starship.rs/guide/">di sini</a></p>
 <h4>font pake <a href="https://drive.google.com/file/d/11S6FTcb_Y-Z4BdvE7Vif5aPFrVNOzP8V/view?usp=sharing">ini</a></h4>
+<p>Cara installnya, ekstrak dengan perintah <code>tar -xvf meslor.tar</code> terus copy ke folder <code>/usr/share/fonts/</code> abis itu ketik <code>fc-cache</code> atau lebih jelasnya ke <a href="https://wiki.archlinux.org/title/Fonts">sini</a></p>
