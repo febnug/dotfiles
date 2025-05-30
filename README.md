@@ -6,9 +6,10 @@
                                           
 </pre>
 ---
-dotfiles gw saat ini di Arch Linux (32-bit)
-Tutorial install Arch Linux (32-bit) in <a href="https://fnlqxz.my.id/blog/posts/panduan-install-arch-linux.html">di sini</a>, connect internet dulu pake Network Manager <code>nmcli device wifi connect "Nama SSID" password passphrase</code>
-<br><br><br>
+<img src="love-my-dwm-setup.jpg"/>
+<p>Dotfiles gw saat ini di Arch Linux (32-bit) dengan window manager DWM</p>
+<p>Tutorial install Arch Linux (32-bit) in <a href="https://fnlqxz.my.id/blog/posts/panduan-install-arch-linux.html">di sini</a>, connect internet dulu pake Network Manager <code>nmcli device wifi connect "Nama SSID" password passphrase</code></p>
+
 <h4>catatan</h4>
 Setelah install arch linux upgrade dulu <code>pacman -Syu</code>, abis itu install dulu ini dengan <code>root</code> user
 <pre>
